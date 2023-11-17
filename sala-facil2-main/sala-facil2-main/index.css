@@ -1,0 +1,155 @@
+/*cabeçalho*/
+header{
+    background-color: #75975e;  
+} 
+
+/*foto da logo*/
+.logo{
+    width: 200px;
+}
+
+/*disposição das palavras*/
+nav li{
+    display: inline;
+    margin-left: 20px;
+   margin-right: 20px;
+    text-align: left;
+}
+
+/*texto dos links para outras página*/
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: left;
+}
+
+/*outro texto de link*/
+#conta{
+   position: absolute;
+   right: 50px;
+}
+
+/*corpo do site*/
+body{
+    background-color: #658354;
+    display: block;
+}
+
+/*tabelas*/
+table{
+    margin: auto;
+    font-size: 35px;
+    border: 10px;
+}
+
+/*parte de cima da tabela*/
+thead{
+    background-color: #ddead1;
+    font-weight:bold;
+}
+
+/*parte de baixo da tabela*/
+tbody{
+    background-color: #b3cf99;
+    font-weight: 'times new roman';
+}
+
+/*th parte de cima, td parte de baixo*/
+th, td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/*foto de boas vindas e da parte de conta*/
+.foto_foda{
+    width: 250px;
+    float: left;
+    margin: 20px 50px 50px 50px;
+}
+
+/*rodapé*/
+footer{
+    text-align: center;
+    background-color: #75975e;
+    padding: 10px;
+    clear: left;
+    font-size: 35px;
+}
+
+/*formulário*/
+form{
+    text-align: left;
+    padding: 100px 100px 100px;
+    font-size: 20px;
+}
+
+/*titulo do formulário*/
+form label{
+    display: block;
+}
+
+/*texto de boas vindas*/
+.txt_bv{
+    font-size: 50px;
+    padding: 100px 100px 100px
+}
+
+/*link para outra página no rodapé*/
+footer li{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+/*textos*/
+p{
+    font-size: 25px;
+}
+
+/*caixa para textos e foto*/
+.container{
+    max-width: 960px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*caixa do miguel*/
+.miguel{
+    width: 276px;
+    margin: 18px;
+    padding: 16px;
+    background-color: #c7ddb5;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/*caixa do lucas*/
+.lucas{
+    width: 276px;
+    margin: 18px;
+    padding: 16px;
+    background-color: #c7ddb5;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/*foto do miuel*/
+.miguel img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+/*foto do lucas*/
+.lucas img{
+    width: 250px;
+    border-radius: 10px;
+}
